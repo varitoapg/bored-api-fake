@@ -1,0 +1,11 @@
+const allowedOriginsList: string[] = [
+  "http://localhost:5173",
+  "http://localhost:4000",
+  "https://the-yawning-portal.netlify.app",
+];
+
+const corsOptions = {
+  origin: allowedOriginsList,
+};
+
+export default corsOptions;
