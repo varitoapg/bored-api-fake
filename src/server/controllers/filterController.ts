@@ -1,31 +1,5 @@
 import { Request, Response } from "express";
-
-const data = [
-  {
-    activity: "Learn Express.js",
-    availability: 0.25,
-    type: "education",
-    participants: 1,
-    price: 0.1,
-    accessibility: "Few to no challenges",
-    duration: "hours",
-    kidFriendly: true,
-    link: "https://expressjs.com/",
-    key: "3943506",
-  },
-  {
-    activity: "Learn React.js",
-    availability: 0.5,
-    type: "education",
-    participants: 1,
-    price: 0.2,
-    accessibility: "Some challenges",
-    duration: "hours",
-    kidFriendly: true,
-    link: "https://reactjs.org/",
-    key: "7890123",
-  },
-];
+import { data } from "../../data.js";
 
 export const filterData = (req: Request, res: Response): Response => {
   const { type } = req.query;
