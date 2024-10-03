@@ -1,7 +1,7 @@
 const allowedOriginsList: string[] = [
   "http://localhost:5173",
   "http://localhost:4000",
-  "https://the-yawning-portal.netlify.app",
+  "https://my-bored-activities.netlify.app",
 ];
 
 const corsOptions = {
